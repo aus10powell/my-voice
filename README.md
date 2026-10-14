@@ -10,7 +10,7 @@ Hobby / clone-and-run utility. No cloud API keys. Default backend: [Faster-Whisp
 # System deps (Debian/Ubuntu example)
 sudo apt install -y python3-venv python3-dev portaudio19-dev libsndfile1
 
-git clone <repo-url> my-voice   # or use this workspace checkout
+git clone https://github.com/aus10powell/my-voice.git
 cd my-voice
 python3 -m venv .venv
 source .venv/bin/activate       # Windows: .venv\Scripts\activate
