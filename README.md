@@ -136,4 +136,4 @@ src/my_voice/
 
 ## License
 
-MIT
+[MIT](LICENSE) — Copyright (c) 2026 Austin Powell
