@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Models / datasets — never commit large media
+*.tar.gz
+*.flac
+*.wav
+*.mp3
+*.pt
+*.bin
+*.gguf
+*.nemo
+.cache/
+models/
+data/
+datasets/
+
+# Local eval overrides
+/eval-cache/
+/tmp-audio/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
